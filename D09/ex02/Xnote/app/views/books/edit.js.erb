@@ -1,0 +1,1 @@
+$('#book_<%= @book.id %>').replaceWith("<%= escape_javascript(render 'form', book: @book )%>");

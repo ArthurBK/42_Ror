@@ -1,0 +1,37 @@
+<div class="container">
+	<%= image_tag("gameboy.jpg", class: "gameboy", alt: "Edit Entry", usemap: "#gameboy") %>
+	<map name="gameboy" class="centered" >
+		<area shape="rect" coords="175,714,225,764" href="#" alt="Up">
+		<area shape="rect" coords="125,764,175,814" href="#" alt="Left">
+		<area shape="rect" coords="225,764,275,814" href="#" alt="Right">
+		<area shape="rect" coords="175,814,225,864" href="#" alt="Down">
+		<area shape="rect" coords="400,975,462,1000" href="#" alt="Start">
+		<area shape="rect" coords="308,975,370,1000" href="#" alt="Select">
+		<area shape="circle" coords="496,811,40" href="b_button" alt="B">
+		<area shape="circle" coords="609,773,40" href="a_button" alt="A">
+		<area shape="rect" coords="187,31,211,55" href="reboot" alt="Reboot">
+
+
+		<div class="screen">
+			<div class="fight">
+				<div class="infos-movie-fight" >
+				<div><h3><%= $game.current_movie.infos[:title] %></h3></div>
+					<div><%= $game.current_movie.infos[:director] %></div>
+					<div>Strength : <%= $game.current_movie.infos[:rating] %></div>
+					<div>Life : <%= $game.current_movie.infos[:life] %></div>
+				</div>
+				<div class="avatar">
+					<%= image_tag("delice.jpg", class: "player-avatar", alt: "photo-joueur") %>
+				</div>
+				<div class="choice">
+					<h3>You</h3>
+					<div>Life : <%= $player.life %></div>
+					<div>Strength : <%= $player.strength %></div>
+					<div><p>[A] Hit    [B] Run</p></div>
+				</div>
+				<div class="image-movie-fight" style="background-image: url('<%= $game.current_movie.infos[:poster] %>');">	
+				</div>	
+			</div>
+		</div>
+	</map>
+</div>

@@ -1,0 +1,2 @@
+$('#book_<%= @book.id %>').remove();
+$('#count_books').html("<%= pluralize(Book.count, 'Book') %>");

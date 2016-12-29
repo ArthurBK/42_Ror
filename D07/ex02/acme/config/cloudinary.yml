@@ -1,0 +1,18 @@
+development:
+  cloud_name: dechj4lre
+  api_key: '992715331121666'
+  api_secret: IrbHwkPuK3u51bxwMyGv5q6xVGw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dechj4lre
+  api_key: '992715331121666'
+  api_secret: IrbHwkPuK3u51bxwMyGv5q6xVGw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dechj4lre
+  api_key: '992715331121666'
+  api_secret: IrbHwkPuK3u51bxwMyGv5q6xVGw
+  enhance_image_tag: true
+  static_image_support: false

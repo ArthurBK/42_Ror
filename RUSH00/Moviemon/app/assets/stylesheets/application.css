@@ -1,0 +1,131 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .image-movie-fight {
+    width: 112px;
+    height: 158px;
+    background-size: contain;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    border-radius: 10px;
+ 	}
+
+ .infos-movie-fight {
+ 	position: absolute;
+ 	top: 2%;
+    left: 2%;
+    width: 180px;
+ }
+
+ .active_data.active_data.active_data.active_data.active_data.active_data{
+    background-color: green !important;
+ }
+
+.player-avatar {
+    width: 112px;
+    height: 130px;
+    background-size: contain;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    border-radius: 10px;
+}
+
+.block {
+    display: block;
+}
+
+.thinking-face{
+        height: 140px;
+}
+ .container {
+ 	top: 0;
+ 	left: 0;
+ 	width: 800px;
+ 	position: relative;
+ 	margin: 0 auto;
+ }
+ .active {
+ 	background-image: url("delice.jpg");
+ 	background-size: cover;
+ }
+
+ .row {
+ 	height: 35px;
+ }
+
+ .data {
+ 	width: 35px;
+ 	border: 1px solid red;
+ 	background-color: white;
+ }
+
+ table {	
+ 	border-collapse: collapse;
+ }
+ .infos-movie{
+ 	position: absolute;
+ 	top: 11%;
+    left: 10%;
+    width: 153px;
+ }
+
+ .slots {
+    position: absolute;
+    width
+ }
+
+ .choice{
+ 	position: absolute;
+ 	bottom: 1%;
+	left: 50%;
+ }
+
+ .gameboy {
+ 	width: 800px;
+ 	height: 1200px;
+ }
+ .image-movie {
+ 	width: 135px;
+    height: 200px;
+    background-size: contain;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    border-radius: 10px;
+ 	}
+
+ 	.gameboy-container {
+
+ 	}
+
+ 	.fight {
+ 		width: 350px;
+ 		height: 350px;
+ 		background-color: white;
+ 		position: relative;
+ 	}
+
+ 	.screen {
+ 		position: absolute;
+ 		top: 10.8%;
+ 		left: 26%;
+ 	}
+
+ 	.centered{
+ 		margin: 0 auto;
+ 	}

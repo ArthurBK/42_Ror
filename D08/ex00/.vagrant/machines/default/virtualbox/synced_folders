@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/abonneca/42/piscine_ruby/D08/ex00","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

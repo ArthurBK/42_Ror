@@ -1,0 +1,31 @@
+<div class="container">
+		<%= image_tag("gameboy.jpg", class: "gameboy", alt: "Edit Entry", usemap: "#gameboy") %>
+	<map name="gameboy" class="centered" >
+	<area shape="rect" coords="175,714,225,764" href="up" alt="Up">
+	<area shape="rect" coords="125,764,175,814" href="left" alt="Left">
+	<area shape="rect" coords="225,764,275,814" href="right" alt="Right">
+	<area shape="rect" coords="175,814,225,864" href="down" alt="Down">
+	<area shape="rect" coords="400,975,462,1000" href="moviedex" alt="Start">
+	<area shape="rect" coords="308,975,370,1000" href="select" alt="Select">
+	<area shape="circle" coords="496,811,40" href="#" alt="B">
+	<area shape="circle" coords="609,773,40" href="#" alt="A">
+	<area shape="rect" coords="187,31,211,55" href="reboot" alt="Reboot">
+
+
+		<div class="screen">
+			<table>
+				<% 10.times do |i| %>
+				<tr class="row" >
+					<% 10.times do |j| %>
+					<% if $player.y_pos == i and $player.x_pos == j %>
+					<td class="data active" ></td>
+					<% else %>
+					<td class="data"></td>
+					<%end%>
+					<%end%>
+				</tr>
+				<%end%>
+			</table>
+		</div>
+	</map>
+</div>

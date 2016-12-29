@@ -1,0 +1,38 @@
+
+<div class="container">
+  <nav>
+    <div class="navbar navbar-fixed-top navbar-default"><div class="navbar-header"><%= link_to "Rails Beginner Cheat Sheet", convention_path, class: "navbar-brand cheat-sheet-brand" %></div>
+
+
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Console", console_path %></li>
+        <li class="dropdown">
+          <a href="./#ruby" class="dropdown-toggle"><b class="caret"></b> Ruby</a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "General Concepts", ruby_path %></li>
+            <li><%= link_to "Numbers", numbers_path %></li>
+            <li><%= link_to "Strings", strings_path %></li>
+            <li><%= link_to "Arrays", arrays_path %></li>
+            <li><%= link_to "Hashes", hashes_path %></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="./#rails"><b class="caret"></b> Rails</a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Folder Structure", rails_app_path %></li>
+            <li><%= link_to "Commands", rails_commands_path %></li>
+            <li><%= link_to "ERB: Embedded Ruby", embedded_ruby_path %></li>
+          </ul>
+        </li>
+          <li><%= link_to "Quick search", quick_search_path %></li>
+          <li><%= link_to "Log Book", log_book_path %></li>
+        <li><%= link_to "Editor Tips", editor_path %></li>
+        <li><%= link_to "Help", help_path %></li>
+      </ul>
+      <ul class="nav pull-right navbar-nav">
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>

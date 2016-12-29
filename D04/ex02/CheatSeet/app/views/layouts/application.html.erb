@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= render partial: "navbar" %>
+
+<div id="content-wrapper">
+  <div class="container">
+  <section id="main-content">
+<%= yield %>
+
+</section>
+</div>
+</div>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+</body>
+</html>

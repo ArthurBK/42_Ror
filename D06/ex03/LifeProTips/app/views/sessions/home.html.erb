@@ -1,0 +1,6 @@
+<p>Welcome <%= cookies[:name] %>_visitor</p>
+<% @posts.each do |post| %>
+<div><%= post.title %></div>
+<div><%= post.content %></div>
+<div><%= link_to "Show post", post_path(post.id) %></div>
+<% end %>
